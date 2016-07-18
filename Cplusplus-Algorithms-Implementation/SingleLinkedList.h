@@ -26,5 +26,34 @@ public:
 	void clear();
 };
 
+template<class T>
+LinkedList<T>::LinkedList() :head(NULL){}
+
+template<class T>
+LinkedList<T>::~LinkedList(){}
+
+template<class T>
+int LinkedList<T>::lenght(){}
+
+template<class T>
+T& LinkedList<T>::at(){}
+
+template<class T>
+void LinkedList<T>::append(T){
+
+
+}
+
+template<class T>
+void LinkedList<T>::insertAt(int i, T val){}
+
+template<class T>
+T LinkedList<T>::deleteAt(int i){}
+
+template<class T>
+void LinkedList<T>::displaylist(){}
+
+template <class T>
+void LinkedList<T>::clear(){}
 
 
